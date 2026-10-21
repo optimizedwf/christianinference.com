@@ -117,6 +117,8 @@
     footer { border-top: 1px solid var(--line); }
     footer .wrap { padding-top: 28px; padding-bottom: 37px; display: flex; justify-content: space-between; align-items: flex-start; gap: 30px; }
     .footer-description { max-width: 650px; color: var(--muted); font-size: 13px; line-height: 1.65; margin: 0; }
+    .footer-left { max-width: 650px; }
+    .footer-attribution { color: var(--muted); font-size: 13px; line-height: 1.65; margin: 12px 0 0; }
     .footer-copyright { color: var(--quiet); font-size: 12px; white-space: nowrap; margin: 0; }
     @media (max-width: 920px) {
       .section-top { grid-template-columns: 1fr; }
@@ -255,7 +257,10 @@
 
   <footer>
     <div class="wrap">
-      <p class="footer-description">Built around privacy, freedom of conscience, and meaningful human control. Work and documentation will be shared as they become available.</p>
+      <div class="footer-left">
+        <p class="footer-description">Built around privacy, freedom of conscience, and meaningful human control. Work and documentation will be shared as they become available.</p>
+        <p class="footer-attribution">Catholic Computer is an initiative of <a href="https://optimizedworkflow.dev/">Optimized Workflow</a>.</p>
+      </div>
       <p class="footer-copyright">© 2026 Catholic Computer</p>
     </div>
   </footer>
